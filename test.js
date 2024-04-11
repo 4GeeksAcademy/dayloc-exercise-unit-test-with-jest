@@ -1,8 +1,8 @@
 
-const { fromEuroToDollar } = require('./app.js')
+const { fromEuroToDollar, fromEuroToYen, fromEuroToPound} = require('./app.js')
 test("One euro should be 1.07 dollars", function() {
     // Importo la funcion desde app.js
-    const { fromEuroToDollar } = require('./app.js');
+    
 
     // Uso la función como debe ser usada
     const dollars = fromEuroToDollar(3.5);
@@ -15,8 +15,8 @@ test("One euro should be 1.07 dollars", function() {
 })
 const { fromEuroToYen } = require('./app.js')
 test("One euro should be 164,34 Yen Japones", function() {
-    // Importo la funcion desde app.js
-    const { fromEuroToYen } = require('./app.js');
+   
+  
 
     // Uso la función como debe ser usada
     const Yens = fromEuroToYen(3.5);
@@ -29,8 +29,8 @@ test("One euro should be 164,34 Yen Japones", function() {
 })
 const { fromEuroToPound } = require('./app.js')
 test("One euro should be 0.86 Pound", function() {
-    // Importo la funcion desde app.js
-    const { fromEuroToPound } = require('./app.js');
+
+    
 
     // Uso la función como debe ser usada
     const Pound = fromEuroToPound(3.5);
